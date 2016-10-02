@@ -1,0 +1,200 @@
+/* ALL PAGES */
+
+body {
+	font-family: "Cambria", "AR JULIAN", "Arial";
+	margin: 20px;
+}
+h1 {
+	margin-bottom: 5px;
+}
+h3 {
+	margin: 0;
+}
+h4 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+h5 {
+	margin: 5px 0 0 0;
+}
+p {
+	font-family: "Arial";
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+a {
+	text-decoration: none;
+}
+hr {
+	border-top: 2px solid #FF0099; /* Dark pink border */
+	clear: both;
+}
+/* Top area */
+#brand {
+	background-color: #FF99CC;
+	font-family: "Vijaya", "Cambria", "Arial";
+}
+#brand h1 {
+	display: inline;
+	font-size: 500%;
+	margin-left: 10px;
+}
+#brand h4 {
+	display: inline;
+	font-size: 150%;
+	position: relative;
+	margin-left: 20px;
+}
+#page-wrapper {
+	width: 700px; /* Width of page */
+}
+#nav {
+	background-color: #000000;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-bottom: 5px solid #FF0099;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+#nav ul li {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+#nav ul li:hover,#nav ul li:link  {
+	background-color: #FF0099;
+}
+/* Log out button */
+#logout {
+	position: relative;
+	top: -40px;
+	left: 450px;
+}
+/* All error messages */
+.error {
+	color: #FF0000; /* Text color: red */
+	height: 20px;
+}
+
+/* SIGN IN */ 
+
+/* Last line on login page */
+.brand_login {
+	border-bottom: 5px solid #FF0099;
+}
+.login_hr {
+	margin-top: 30px;
+}
+
+/* KWEETS/MY KWEETS (index.php) */
+
+#newKweet {
+	height: 250px;
+}
+textarea {
+	width: 250px;
+	height: 100px;
+}
+/* Left side of a contact in kweet list and contactlist */
+.profileContainer {
+	height: 200px;
+	width: 170px;
+	float: left;
+}
+.profileContainer img {
+	height: 120px;
+	width: 120px;
+}
+.profilePic {
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+}
+/* Top right side of a contact in kweet list */
+.messageContainer {
+	height: 130px;
+	width: 530px;
+	float: right;
+}
+/* Bottom right side of a contact in kweet list */
+.dateContainer {
+	height: 70px;
+	width: 530px;
+	float: right;
+	margin-top: 10px;
+}
+.date {
+	position: relative;
+	top: -20px;
+}
+.deleteBtn {
+	position: relative;
+	top: -10px;
+}
+
+/* CONTACTS (contacts.php) */
+
+/* Links under Contacts headline */
+.contactFilter {
+	color: #FFFFFF;
+	background-color: #000000;
+	width: 150px;
+	border-bottom: 2px solid #FF0099;
+	margin: 3px;
+	padding: 5px;
+	cursor: pointer;
+	list-style-type: none;
+}
+.contactFilter:hover {
+	background-color: #FF0099;
+}
+/* Following/follower buttons */
+.following, .notFollowing {
+	color: #FFFFFF;
+	position: relative;
+	top: 20px;
+	width: 100px;
+	height: 30px;
+	border: 2px solid #000000;
+	border-radius: 7px;
+	cursor: pointer;
+}
+.following {
+	background-color: #FF0099;
+}
+.follower {
+	color: #FFFFFF;
+	position: relative;
+	top: 70px;
+	left: -100px;
+	width: 100px;
+	height: 30px;
+	border: 2px solid #000000;
+	border-radius: 7px;
+}
+.notFollowing {
+	background-color: #660066;
+}
+.follower {
+	background-color: #0066FF;
+}
+.noFollower {
+	display: none;
+}
+
+/* SETTINGS */
+
+.settings_hr {
+	margin-top: 30px;
+}
+
+

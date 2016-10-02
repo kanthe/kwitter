@@ -1,0 +1,28 @@
+.noFollower {
+	display: none;
+}
+.follower {
+	background-color: #0066FF;
+	color: #FFFFFF;
+}
+.notFollowing {
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.following {
+	background-color: #66FF33;
+	border-color: #000000;
+}
+.contactFilter {
+	cursor: pointer;
+	color: #000080;
+	text-decoration: underline;
+}
+.error {
+	color: #FF0000;
+}
+hr {
+	background-color: #FF0099;
+	/*color: #FF0099;
+	border-top: 2px solid #FF0099;*/
+}
